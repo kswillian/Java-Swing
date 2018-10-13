@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author QI
+ * @author Willian Kaminski
  */
 public class Pessoa {
  
