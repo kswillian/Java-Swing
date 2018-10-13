@@ -168,8 +168,6 @@ public class GUILogin extends javax.swing.JFrame {
         mp.setVisible(true);
     }
     
-    
-    
     /**
      * @param args the command line arguments
      */
