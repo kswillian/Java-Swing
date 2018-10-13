@@ -1,0 +1,86 @@
+drop database if exists livraria;
+create database livraria;
+use livraria;
+
+create table usuario(
+    idusuario bigint auto_increment,
+    login varchar(50) not null,
+    senha varchar(50) not null,
+    primary key(idusuario)
+);
+
+create table cliente(
+	idcliente bigint auto_increment,
+	nome varchar(50) not null,
+	sobrenome varchar(70) not null,
+	sexo varchar(10) not null,
+	idade int(3) not null,
+   cidade varchar(30),
+	bairro varchar(30),
+	rua varchar(50),
+	numero int(10),
+	email varchar(60),
+	telefone1 int(15),
+	telefone2 int(15),
+	data_cadastro date,
+	data_alteracao date,
+	primary key(idcliente)
+); 
+
+create table funcionario(
+	idfuncionario bigint auto_increment,
+	nome varchar(50) not null,
+	sobrenome varchar(70) not null,
+	sexo varchar(10) not null,
+	idade int(3) not null,
+   cidade varchar(30),
+	bairro varchar(30),
+	rua varchar(50),
+	numero int(10),
+	email varchar(60),
+	telefone1 int(15),
+	telefone2 int(15),
+	data_cadastro date,
+	data_alteracao date,
+	primary key(idfuncionario)
+);
+
+create table autor(
+	idautor bigint auto_increment PRIMARY KEY,
+	nome varchar(50) not null
+);
+
+create table livro(
+	idlivro bigint auto_increment PRIMARY KEY,
+	titulo varchar(50) not null,
+	subtitulo varchar(50),
+	edicao int(5),
+	editora varchar(50),
+	isbn bigint not null,
+	id_autor bigint not null,
+	data_lancamento int(4),
+	data_alteracao date,
+	preco_venda decimal,
+	FOREIGN KEY(id_autor) REFERENCES autor(idautor)
+);
+
+create table venda(
+	idvenda bigint auto_increment PRIMARY KEY,
+	id_livro bigint,
+	id_cliente bigint,
+	id_funcionario bigint,
+	data_venda date,
+	quantidade int(2),
+	FOREIGN KEY(id_livro) REFERENCES livro(idlivro),
+	FOREIGN KEY(id_cliente) REFERENCES funcionario(idfuncionario),
+	FOREIGN KEY(id_livro) REFERENCES cliente(idcliente)
+);
+
+insert into usuario(idusuario,login,senha)
+values(null,'admin','admin');
+      
+insert into autor(idautor,nome)
+values(null,'Paulo Coelho'),
+		(null,'Machado de Assis'),
+		(null,'Monteiro Lobato');
+

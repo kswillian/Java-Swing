@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jtTitulo" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtSubtitulo" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="297" max="32767" attributes="0"/>
+                      <Component id="jbLimpar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbCadastrar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlTitulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlSubTitulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlDataLancamento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlAutor" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jComboAutor" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jlEdicao" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtEdicao" alignment="0" pref="214" max="32767" attributes="0"/>
+                          <Component id="jtAnoLancamento" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jlEditora" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jtValorVenda" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jtISBN" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jtEitora" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jlPreco" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jlISBN" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jtTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlSubTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jtSubtitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlEdicao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlEditora" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jtEdicao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtEitora" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlDataLancamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlISBN" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jtISBN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtAnoLancamento" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlPreco" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jtValorVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboAutor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbCadastrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlTitulo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TITULO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtTitulo">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtTituloKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSubTitulo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SUBTITULO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtSubtitulo">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtSubtituloKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtEdicao">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtEdicaoKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlEdicao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EDI&#xc7;&#xc3;O"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlEditora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EDITORA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LIMPAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbLimparActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbLimparKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbCadastrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CADASTRAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbCadastrarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jbCadastrarKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtEitora">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtEitoraKeyPressed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtEitoraKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlDataLancamento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ANO DE LAN&#xc7;AMENTO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlISBN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISBN"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtISBN">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtISBNKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlAutor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AUTOR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlPreco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VALOR VENDA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtValorVenda">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtValorVendaKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboAutor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jComboAutorKeyPressed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value=""/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtAnoLancamento">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtAnoLancamentoKeyPressed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
