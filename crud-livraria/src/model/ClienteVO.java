@@ -185,6 +185,6 @@ public class ClienteVO {
                "Telefone1=" + telefone1 + 
                "Telefone2=" + telefone2 + 
                "Data Cadastro= " + data_cadastro + 
-               "Data alteração= " + data_alteracao;
+               "Data alteração= " + data_alteracao ;
     }
 }
