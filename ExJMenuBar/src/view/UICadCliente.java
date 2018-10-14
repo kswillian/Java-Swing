@@ -11,9 +11,9 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Rodrigo Marques
+ * @author Willian Kaminski
  * @since 27/06/2018 - 20:40
- * @version Beta Version 10.0 All Might
+ * @version Beta Version 1.0
  */
 public class UICadCliente extends javax.swing.JInternalFrame {
 

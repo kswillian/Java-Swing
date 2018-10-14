@@ -13,7 +13,7 @@ import modelo.Pessoa;
 
 /**
  *
- * @author QI
+ * @author Willian Kaminski
  */
 public class GUICadPessoa extends javax.swing.JFrame {
 

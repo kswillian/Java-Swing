@@ -10,8 +10,9 @@ import javax.swing.event.InternalFrameListener;
 
 /**
  *
- * @author Rodrigo Marques
- * 
+ * @author Willian Kaminski
+ * @since 27/06/2018 - 20:40
+ * @version Beta Version 1.0 
  */
 public class Menu extends javax.swing.JFrame implements InternalFrameListener{
     
